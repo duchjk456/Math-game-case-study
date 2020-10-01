@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/Case_Math_Game.js"></script>
+    <link rel="stylesheet" href="css/minion.css">
+</head>
+<body>
+<h1 id="finish" class="tittle">YOU ARE MY BOSS?</h1>
+<form class="form1" action="#">
+    <h2>SCORE: <span id="answer"></span></h2>
+</form>
+<form class="form3" action="#"><h2>TIME: <span id="time"></span></h2></form>
+<table>
+    <tr>
+        <td id="num1"></td>
+        <td id="mark1"></td>
+        <td id="num2"></td>
+        <td id="mark2"></td>
+        <td id="ket_qua"></td>
+    </tr>
+    <tr></tr>
+</table>
+<form class="form2" action="#">
+    <fieldset>
+        <label for="result"><b>Your answer:</b></label>
+        <input type="number" class="input" id="result"><br><br>
+        <button type="button" class="playButton" onclick="get()" id="playBtn">Play</button>
+        <button type="button" class="checkButton" onclick="checkAnswer()">Check</button>
+    </fieldset>
+</form>
+</body>
+</html>
